@@ -10,7 +10,6 @@ AI-powered workplace intelligence platform helping employees with contract analy
 ## Demo
 ![WorkSense Demo](docs/demo.gif)
 
-> Replace `docs/demo.gif` with your product walkthrough GIF.
 
 ## Key Features
 - Contract risk analysis with actionable guidance

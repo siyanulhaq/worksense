@@ -1,36 +1,27 @@
 # WorkSense
 
-AI-powered workplace intelligence platform focused on helping employees make better career decisions with practical, explainable insights.
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688)
+![React](https://img.shields.io/badge/Frontend-React-61DAFB)
+![Groq](https://img.shields.io/badge/LLM-Groq-black)
 
-## Core Modules
-- Contract Analyzer (risk flags and negotiation insights)
-- Workplace Situation Advisor (action-oriented guidance)
-- Performance Review Decoder (plain-language interpretation)
-- Salary Intelligence (market-position insights)
-- Burnout Tracker (weekly risk awareness)
+AI-powered workplace intelligence platform helping employees with contract analysis, review decoding, salary insights, and burnout awareness.
 
-## Tech Stack
-- Frontend: React, React Router, Axios
-- Backend: FastAPI, Python
-- LLM: Groq
-- Document Processing: LangChain, PyPDF
+## Demo
+![WorkSense Demo](docs/demo.gif)
 
-## Architecture
-```text
-worksense/
-|-- backend/
-|   |-- routes/
-|   |-- services/
-|   `-- main.py
-`-- frontend/
-    `-- src/
-```
+> Replace `docs/demo.gif` with your product walkthrough GIF.
+
+## Key Features
+- Contract risk analysis with actionable guidance
+- Performance review decoding into plain language
+- Salary intelligence and negotiation support
+- Burnout tracking and early-risk insights
 
 ## Quick Start
 ```bash
 # backend
 cd backend
-pip install -r requirements.txt
 uvicorn main:app --reload
 
 # frontend
@@ -39,11 +30,7 @@ npm install
 npm start
 ```
 
-## Why This Project Stands Out
-- Real-world employee-first problem framing
-- End-to-end implementation (frontend + backend + AI)
-- Portfolio-ready product thinking with clear user value
-
-## Author
-Siyan Ul Haq  
-GitHub: https://github.com/siyanulhaq
+## Resume Bullets
+- Developed an AI-powered employee support platform combining FastAPI, React, and LLM integrations.
+- Built multiple practical modules for contract analysis, review decoding, salary benchmarking, and burnout risk tracking.
+- Shipped a full-stack architecture with clear user-focused outcomes and scalable product structure.
